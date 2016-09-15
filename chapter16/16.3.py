@@ -20,7 +20,7 @@ def add_time(time,seconds):
 
 def main():
 	time=Time()
-	time.hour=2
+	time.hour=4
 	time.minute=45
 	time.second=46
 	seconds=6
