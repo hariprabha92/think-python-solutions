@@ -5,9 +5,7 @@ def right_justify(s):
 
 	l=len(s)
 	d=70-l
-	for i in range(d):
-		print " ",
-	print s
+	print (''*d+s)
 right_justify("allen")
 		
 
